@@ -1,4 +1,7 @@
 transformers==4.24.1
+accelerate
+bitsandbytes
+safetensors
 uvicorn
 torch
 fastapi
