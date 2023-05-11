@@ -1,0 +1,5 @@
+transformers==4.24.1
+uvicorn
+torch
+fastapi
+base64
