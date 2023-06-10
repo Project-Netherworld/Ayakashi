@@ -5,4 +5,4 @@ safetensors
 uvicorn
 torch
 fastapi
-base64
+pybase64
