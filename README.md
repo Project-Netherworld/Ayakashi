@@ -3,10 +3,10 @@ The Backend for Project Netherworld. For more information about the Project, see
 
 ## Features 
 - Efficient Communication  via Serialization of Tensors and Chat History(using FastAPI and Uvicorn) to Interface with the [Phantasmagoria Front End](https://github.com/Project-Netherworld/Phantasmagoria).
-- Implementation of Experimental Warpers such as [top_a](https://github.com/BlinkDL/RWKV-LM/tree/4cb363e5aa31978d801a47bc89d28e927ab6912e#the-top-a-sampling-method) and [Tail Free Sampling](https://www.trentonbricken.com/Tail-Free-Sampling/) to allow more options for creatively generating text via the conversational agent (chatbot)  
+- Implementation of Experimental Warpers such as [top_a](https://github.com/BlinkDL/RWKV-LM/tree/4cb363e5aa31978d801a47bc89d28e927ab6912e#the-top-a-sampling-method) and [Tail Free Sampling](https://www.trentonbricken.com/Tail-Free-Sampling/) to allow more options for creatively generating text via the conversational agent (chatbot).
 - Implementation of Experimental Processors such as [Logit_bias(es)](https://help.openai.com/en/articles/5247780-using-logit-bias-to-alter-token-probability-with-the-openai-api) to customize their conversation agent to say certain words/phrases more or less often
-- Quick and Efficient text generation via the Transformers and Pytorch libraries 
-- Customizable Port Hosting
+- Quick and Efficient text generation via the Transformers and Pytorch libraries to leverage GPT-J/Neo/NeoX based Open Source Models such as [ConvoGPT](https://huggingface.co/hakurei/convogpt-staging).  
+- Customizable Port Hosting.
 
 ## Installation 
 0. Have Python installed. **This project requires Python 3.10 or higher.**
